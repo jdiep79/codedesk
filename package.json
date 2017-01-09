@@ -1,7 +1,7 @@
 {
-  "name": "express-react-redux-starter",
-  "version": "1.0.0",
-  "description": "Starter for Express, React, Redux, SCSS applications",
+  "name": "codedesk",
+  "version": "0.1.0",
+  "description": "Help desk for developers and coders",
   "scripts": {
     "dev": "webpack-dev-server --config ./webpack/webpack-dev.config.js --watch --colors",
     "build": "rm -rf dist && webpack --config ./webpack/webpack-prod.config.js --colors",
@@ -11,24 +11,16 @@
     "lint": "eslint src test webpack"
   },
   "keywords": [
-    "ExpressJS",
-    "ReactJS",
-    "Redux",
-    "React hot loader",
-    "React Router",
-    "SCSS",
-    "Webpack Devevelopment configuration",
-    "Webpack Production configuration",
-    "Airbnb Eslint",
-    "pm2",
-    "mocha",
-    "chai"
+    "help desk",
+    "troubleshooting",
+    "developers",
+    "coders"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DimitriMikadze/express-react-redux-starter"
+    "url": "git+https://github.com/jdiep79/codedesk"
   },
-  "author": "Dimitri Mikadze",
+  "author": "Jimmy Diep",
   "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.8.0",
