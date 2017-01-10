@@ -7,7 +7,7 @@ mongoose.connect('mongodb://localhost/tickettracker');
 app.use(express.static('./'));
 app.use(express.static('dist'));
 
-app.get('*', (req, res) => {
+app.get('/', (req, res) => {
   res.sendFile(`${__dirname}/dist/index.html`);
 });
 
